@@ -1,12 +1,3 @@
-import io,sys,os
-os.system("Cls")
-with open("HandInput.txt") as TxtOpen:
-    INPUT=TxtOpen.read() 
-sys.stdin=io.StringIO(INPUT)
-
-# ctl + alt + n：実行
-# F5：デバッグ
-# --------------------------------------------------------
 class Node:
     def __init__(self, key):
         self.key = key
